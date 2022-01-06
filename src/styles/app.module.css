@@ -1,0 +1,16 @@
+.main {
+    height: 100%;
+    width: 70%;
+    max-width: 1200px;
+    min-width: 900px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 52% 42%;
+    column-gap: 6%;
+}
+.list {
+    padding: 20px;
+}
+.buy {
+    padding: 20px;
+}

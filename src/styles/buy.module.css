@@ -1,0 +1,92 @@
+.empty {
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.376);
+    padding: 50px 30px 30px;
+    border-radius: 30px;
+}
+.emptyString {
+    display: inline-block;
+    margin:  0px auto 0px;
+    font-size: 25px;
+    color: rgba(128, 128, 128, 0.479);
+    text-align: center;
+}
+.left {
+    transform: rotate(180deg);
+    width: 120px;
+    opacity: 0.3;
+    margin: 50px auto;
+}
+.itemCont {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 90vh;
+    min-height: 800px;
+    width: 30%;
+    row-gap: 20px;
+}
+.image {
+    width: 100%;
+}
+.name {
+    font-size: 25px;
+    font-weight: 600;
+    color: #232125;
+}
+.prices {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    align-items: baseline;
+    margin-top: 10px auto;
+}
+.prices p:nth-child(1) {
+    color: #3B910C;
+    font-size: 25px;
+    font-weight: 600;
+}
+.prices p:nth-child(2) {
+    color: #787C7D;
+    font-size: 22px;
+    font-weight: 400;
+}
+.prices p:nth-child(2) span {
+    color: #787C7D;
+    font-size: 16px;
+    font-weight: 900;
+}
+.accident {
+    padding: 7px 0px;
+    font-size: 22px;
+    margin: 0px 0px;
+    color: rgba(110, 110, 110, 0.849);
+}
+.infoCont {
+    border: 1px solid rgba(77, 77, 246, 0.657);
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.check {
+    width: 15px;
+    margin-right: 10px;
+}
+.descript span {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(83, 83, 83, 0.87);
+}
+.descript {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(85, 85, 85);
+}

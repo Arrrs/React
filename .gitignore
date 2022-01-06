@@ -1,1 +1,6 @@
 node_modules/
+src/styles/counterFn.module.css
+src/AppOld.js
+src/CounterClass.js
+src/CounterFn.js
+src/ImgLoader.js

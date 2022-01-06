@@ -1,6 +1,6 @@
 import React from "react";
 
-class App extends React.Component {
+class CounterCl extends React.Component {
     state = {
         clicks: 1
     }
@@ -9,14 +9,17 @@ class App extends React.Component {
         let { clicks } = this.state;
         this.setState({clicks: clicks + 1})
     }
-
+    
     render() {
-        let { clicks } = this.state;
 
+        let { clicks } = this.state;
+        for (let i = 1; i < 5; i++) {
+        
+        }
         return	<div>		
             <span onClick={this.inc}>{clicks}</span>
 		</div>
         
     }
 }
-export default App;
+export default CounterCl;
