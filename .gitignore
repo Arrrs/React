@@ -1,7 +1,7 @@
 node_modules/
 src/styles/counterFn.module~.css
-src/AppOld~.js
-src/CounterClass~.js
-src/CounterFn~.js
-src/ImgLoader~.js
-src/UserCard~.js
+src/Old/AppOld~.js
+src/Old/CounterClass~.js
+src/Old/CounterFn~.js
+src/Old/ImgLoader~.js
+src/Old/UserCard~.js
