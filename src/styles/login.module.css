@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    width: 300px;
+    text-align: center;
+    background-color: rgba(84, 117, 160, 0.589);
+    padding: 50px 30px 40px;
+}
+.main h3 {
+    margin-bottom: 20px;
+}
+.main input {
+    margin-bottom: 40px;
+    border: 0;
+}
+.main button {
+    margin-top: 40px;
+    width: 90px;
+    padding: 7px 20px;
+    white-space: nowrap;
+}
+.main h5 {
+    margin-top: 30px;
+}

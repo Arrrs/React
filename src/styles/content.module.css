@@ -1,5 +1,9 @@
 .main {
-    height: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 160px 0px 80px;
+}
+.listCont {
     width: 70%;
     max-width: 1200px;
     min-width: 900px;
@@ -7,7 +11,6 @@
     display: grid;
     grid-template-columns: 52% 42%;
     column-gap: 6%;
-    background-color: grey;
 }
 .list {
     padding: 20px;

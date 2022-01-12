@@ -1,0 +1,19 @@
+.main {
+    background-color: rgb(153, 158, 153);
+    height: 80px;
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav {
+    margin: auto;
+}
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
