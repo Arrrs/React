@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "enteryPage": true,
+        "navPage": 0,    
+        "showHeaderMenu": false,
+        "haveAcc": false,
+        "name": "Jason",
+        "surname": "Statham",
+        "email": "driver@.mail.zimbabve",
+        "telephone": "+37-888-444-06",
+        "password": "*********",
+        "profilephoto": "http://localhost:3000/assets/images/profile.png"
+    }   
+]
